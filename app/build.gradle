@@ -33,6 +33,7 @@ dependencies {
     implementation "com.microsoft.appcenter:appcenter-analytics:${appCenterSdkVersion}"
     implementation "com.microsoft.appcenter:appcenter-crashes:${appCenterSdkVersion}"
     classpath 'com.google.gms:google-services:4.2.0'
+    implementation 'com.google.firebase:firebase-core:17.0.0'
 }
 
 apply plugin: 'com.google.gms.google-services'
