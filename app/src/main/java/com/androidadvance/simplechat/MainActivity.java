@@ -53,6 +53,10 @@ public class MainActivity extends AppCompatActivity {
   private long last_message_timestamp = 0;
 
   @Override protected void onCreate(Bundle savedInstanceState) {
+    AppCenter.start(getApplication(), "f763cdee-726c-474e-8e0a-58e3b4974385",
+    Analytics.class, Crashes.class);
+    AppCenter.start(getApplication(), "f763cdee-726c-474e-8e0a-58e3b4974385",
+    Analytics.class, Crashes.class);
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_main);
     Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
